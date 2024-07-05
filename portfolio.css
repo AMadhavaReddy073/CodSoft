@@ -1,0 +1,33 @@
+.bg-container{
+    background-color: lightcyan;
+}
+.nav-bg{
+    background-color: cornflowerblue;
+}
+.icon{
+    font-size: 42px;
+    margin: 16px;
+}
+.about-heading{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.para{
+    font-size: 24px;
+    color: darkslategray;
+}
+.images{
+    width: 40vw;
+    margin: 32px;
+}
+.what-i-do-heading{
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 20px;
+}
+.what-i-do-para-bold{
+    font-size: 24px;
+    color: darkslategray;
+    font-weight: 600;
+}
