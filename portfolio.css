@@ -31,3 +31,54 @@
     color: darkslategray;
     font-weight: 600;
 }
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.projects-card{
+    text-align: center;
+    margin: 12px;
+    padding: 12px;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.projects-heading{
+    padding: 20px;
+    font-weight: bold;
+    
+}
+
+.project-img-small{
+    width:150px;
+    height: 220px;
+    border-radius: 10px;
+}
+.project-img-big{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.projects-name{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 8px;
+}
+.projects-description{
+    font-size: 16px;
+    color: darkslategrey;
+}
+.projects-button{
+    border-radius: 10px;
+    width: 80px;
+    border-width: 0px;
+    background-color: aquamarine;
+    text-decoration: none;
+}
