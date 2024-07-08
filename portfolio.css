@@ -21,6 +21,7 @@
     width: 40vw;
     margin: 32px;
 }
+
 .what-i-do-heading{
     font-size: 50px;
     font-family: 'Trebuchet MS';
@@ -122,4 +123,7 @@
     font-size: 18px;
     padding: 10px;
     background-color: cornflowerblue;
+}
+.up-arrow{
+    align-self: flex-end;
 }
