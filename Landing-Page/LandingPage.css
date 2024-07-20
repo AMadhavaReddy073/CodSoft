@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.logo{
+    width: 150px;
+}
+.top-section{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/621/002/original/blue-wave-abstract-background-web-background-blue-texture-banner-design-creative-cover-design-backdrop-minimal-background-illustration-vector.jpg") ;
+    padding-left: 20px;
+    background-size: cover;
+    color: #ffffff;
+}
+.top-section-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-section-image{
+    width: 750px;
+}
+.top-section-des{
+    align-self: center;
+   
+}
+.services-heading{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.services-description{
+ text-align: center;
+ color: rgb(50, 49, 49);
+}
+
+.services-card-container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    justify-content: flex-start;
+    margin: 25px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 5px 5px 5px 5px rgb(172, 166, 166) ;
+}
+.services-card-logo{
+    width: 50px;
+    margin-top: 12px;
+}
+.services-button{
+    background-image: linear-gradient(to right,#87ceeb,#00bfff,#1e90ff );
+    width: 120px;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    border-width: 0px;
+}
+.services-card-heading{
+    font-size: 24px;
+    margin-top: 12px;
+}
+.services-card-para{
+    font-size: 12px;
+    margin-top: 12px;
+    color: rgb(97, 92, 92);
+}
