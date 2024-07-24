@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: "Roboto";
 }
 .logo{
     width: 150px;
@@ -25,7 +26,7 @@
 }
 .services-heading{
     text-align: center;
-    font-weight: 600;
+    font-weight: bold;
     margin-top: 80px;
 }
 .services-description{
@@ -70,4 +71,97 @@
     font-size: 12px;
     margin-top: 12px;
     color: rgb(97, 92, 92);
+}
+
+.why-us{
+    font-family: "Roboto";
+    margin:50px;
+}
+.why-us-card{
+    display: flex;
+    padding:20px;
+    margin: 25px;
+    padding: 16px;
+}
+.why-us-card-logo{
+    width: 100px;
+    margin: 20px;
+}
+.why-us-card-heading{
+    color: rgb(54, 65, 75);
+    font-size: 28px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.why-us-card-desc{
+    color: rgb(91, 84, 84);
+    font-size: 16px;
+    margin: 5px;
+}
+.contact-us{
+    background-image: url("https://r1.ilikewallpaper.net/ipad-wallpapers/download/30605/Blue-City-Cloud-Metropolitan-Urban-Building-ipad-wallpaper-ilikewallpaper_com.jpg");
+    background-size: cover;
+    padding: 50px;
+}
+.contact-us-heading{
+    text-align: center;
+    font-weight: bold;
+    color: #0b1e31;
+    margin: 15px;
+    font-size: 42px;
+}
+.contact-us-desc{
+    text-align: center;
+    font-weight: 600;
+    color: #3a2283;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+.contact-us-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-us-card-logo{
+    width: 60px;
+    margin: 12px;
+    height: 60px;
+}
+.contact-us-card-heading{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+.contact-us-card-desc{
+    font-size: 20px;
+    color:rgb(6, 7, 60);
+    font-weight: 600;
+}
+
+.contact-us-send-msg-bg{
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 20%;
+}
+.contact-us-send-msg-heading{
+    margin: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.contact-us-send-msg-input{
+    padding: 12px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    margin-bottom: 40px;
+}
+.contact-us-send-msg-button{
+    border: none;
+    color: white;
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    font-weight: 700;
 }
